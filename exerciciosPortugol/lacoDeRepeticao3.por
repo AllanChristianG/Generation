@@ -9,7 +9,7 @@ programa
 			
 			leia(idade)
 			
-			se(idade < 21){
+			se(idade < 21 e idade > 0){
 				menor++
 			}senao se (idade > 50){
 				maior++
@@ -23,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 383; 
+ * @POSICAO-CURSOR = 395; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
