@@ -3,13 +3,13 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro array[10], par = 0, impar = 0
+		inteiro num, par = 0, impar = 0
 		escreva("Digite 10 números para verificar quantos são pares e quantos são ímpares!")
 		
 		para(inteiro i = 0; i < 10; i++){			
-			leia(array[i])
+			leia(num)
 			
-			se( array[i] % 2 == 0){
+			se( num % 2 == 0){
 				par++
 			}senao{
 				impar++
