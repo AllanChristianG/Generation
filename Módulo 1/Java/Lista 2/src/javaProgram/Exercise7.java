@@ -1,3 +1,8 @@
+/*Receber valores de base e altura de um triângulo e verificar se são valores válidos 
+ * (positivos maiores que zero). Em caso afirmativo, calcular a área do triângulo.
+ */
+
+
 package javaProgram;
 
 import java.util.Locale;
@@ -14,14 +19,14 @@ public class Exercise7 {
 		b = read.nextDouble();
 		h = read.nextDouble();
 		
-		if( b > 0 && h > 0) {
-			area = (b * h)/2;
-			System.out.println("The Triangle's area is: " + area);
-		}else {
-			System.out.println("Please insert positive values!");
+		while ( b <= 0 || h <= 0) {
+			System.out.println("Please insert positive values greater than 0!");
+			b = read.nextDouble();
+			h = read.nextDouble();				
 		}
-	
-		read.close();
+		area = (b * h)/2;
+		read.close();	
+		
 	}
 
 }
