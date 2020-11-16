@@ -15,7 +15,7 @@ programa
 		
 		se ( mat.potencia(valor[2], 2.0) >= 1000 ){
 			
-			escreva("\n", mat.potencia(valor[3], 2.0)) 			
+			escreva("\n", mat.potencia(valor[2], 2.0)) 			
 			
 		}senao{
 			para ( inteiro cont = 0; cont <= 3; cont ++){
@@ -30,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 497; 
+ * @POSICAO-CURSOR = 492; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
