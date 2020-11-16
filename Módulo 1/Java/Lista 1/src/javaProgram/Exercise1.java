@@ -15,6 +15,7 @@ public class Exercise1 {
 		grade3 = read.nextInt();
 		
 		average = grade1 * 0.2 + grade2 * 0.3 + grade3 * .5;
-		System.out.print(average);
+		System.out.print("The average is: " + average);
+		read.close();
 	}
 }
