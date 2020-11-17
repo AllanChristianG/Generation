@@ -20,7 +20,7 @@ public class Exercise7 {
 		h = read.nextDouble();
 		
 		while ( b <= 0 || h <= 0) {
-			System.out.println("Please insert positive values greater than 0!");
+			System.out.println("Please insert positive values higher than 0!");
 			b = read.nextDouble();
 			h = read.nextDouble();				
 		}
