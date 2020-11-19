@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class Exercise1 {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
-		
 		Scanner read = new Scanner(System.in);
 		//Random rand = new Random();
 		
@@ -18,12 +17,17 @@ public class Exercise1 {
 		
 		for(int i = 0; i < dice.length; i++) {
 			dice[i] = read.nextInt();
-			sum += dice[i];
-			if(dice[i] > higher) {
-				higher = dice[i];
+			while(dice[i] <= 0 || dice[i] > 6 ) {
+				System.out.println("Please insert values between 1 and 6!");
+				dice[i] = read.nextInt();
 			}
+				sum += dice[i];
+				if(dice[i] > higher) {
+					higher = dice[i];
+				}			
 		}
-		System.out.printf("Your array is:\n ");
+		
+		System.out.printf("Your array is:\n");
 		
 		for(int i = 0; i < dice.length; i++) {
 			System.out.println(dice[i]);
@@ -31,6 +35,7 @@ public class Exercise1 {
 				cont++;
 			}
 		}
+		
 		sum = sum/dice.length;
 		
 		System.out.printf("The average of the turns is: %.2f "
