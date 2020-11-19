@@ -11,9 +11,10 @@ public class exercise5 {
 		
 		int average = 0, i = 0, number;
 		System.out.println("Please insert number for our average calc!");
+		
 		do {
 			number = read.nextInt();
-			if(number % 3 ==0 && number != 0) {
+			if(number % 3 == 0 && number != 0) {
 				average += number;
 				i++;
 			}

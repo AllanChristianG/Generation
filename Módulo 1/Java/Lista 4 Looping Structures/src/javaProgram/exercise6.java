@@ -12,7 +12,7 @@ public class exercise6 {
 		double salary = 0, aux = 0, sum = 0;
 		System.out.println("Please enter the following data for calculation!");
 		for(int i = 0; i < 2; i++) {
-			System.out.println("Please inform Salary!");
+			System.out.println("Please inform your current Salary!");
 			salary = read.nextDouble();
 			sum += salary;
 			
@@ -23,9 +23,10 @@ public class exercise6 {
 				}
 			}
 			
-			System.out.println("Please inform number of kids!");
+			System.out.println("Please inform How many children do you have!");
 			child = read.nextInt();
 			sumChild += child;			
+			
 		}
 		System.out.printf("The average population salary is: R$%.2f", (float)sum/20);
 		System.out.printf("\nThe average number of kids per family is: %d", (sumChild/20));

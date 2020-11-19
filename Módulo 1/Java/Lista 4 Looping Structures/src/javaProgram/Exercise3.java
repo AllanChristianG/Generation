@@ -15,6 +15,7 @@ public class Exercise3 {
 		
 		while(age != -99) {
 			age = read.nextInt();
+			
 			if(age < 21 && age > 0) {
 				lower++;
 			}else if(age > 50) {

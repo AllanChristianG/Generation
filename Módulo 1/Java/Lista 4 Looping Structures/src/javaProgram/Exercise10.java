@@ -15,9 +15,9 @@ public class Exercise10 {
 			}else{
 				i +=5;
 			}
-			System.out.print(i + ", ");;
+			System.out.print(i + ", ");
 			
-		}while(i <= 456);
+		}while(i <= 447);
 		
 		read.close();
 	}

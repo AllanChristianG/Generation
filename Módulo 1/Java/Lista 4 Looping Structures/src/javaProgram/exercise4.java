@@ -14,8 +14,10 @@ public class exercise4 {
 		System.out.println("Please insert as many number as you want for our Sum!");
 		
 		do {
+			
 			entry = read.nextInt();			
-			result += entry;			
+			result += entry;
+			
 		}while(entry != 0);
 		
 		System.out.printf("The sum of all your inserted numbers is: %d", result);
