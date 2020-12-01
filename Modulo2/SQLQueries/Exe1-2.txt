@@ -1,0 +1,49 @@
+Atividade 1
+
+ Explique com suas palavras e cite exemplos utilizando no mínimo 2 linhas para cada alternativa.
+
+Select
+Comando que retorna um range de dados de uma determinada tabela ou campo ex: select * from tb_exemplo
+
+Insert
+Comando que insere uma informação ou conjunto de informação em uma tabela ex: INSERT INTO tb_teste (nomeTeste, numeroTeste) VALUES (“Exemplo”, “Exemplo”) 
+
+Update
+Comando que atualiza uma informação/registro em uma dada tabela ex:
+UPDATE tb_teste SET nome_Teste = “Exemplo”  WHERE  id = “ 1 “
+
+Delete
+Comando que remove registros de uma dada tabela ex: DELETE FROM tb_teste WHERE d_Teste = 2
+
+Create Table
+Comando que realiza a inserção de uma tabela no database ex: 
+
+CREATE TABLE  nome_tabela (
+	coluna tipo_dados constraints,
+    	coluna tipo_dados constraints,
+
+);
+
+Drop Table
+Comando que remove uma tabela do database ex: 
+DROP TABLE tb_teste; 
+
+Alter Table
+Comando que altera a estrutura de uma tabela ex: 
+ALTER TABLE nome_tabela ADD nome_coluna tipo_dados;
+
+
+
+Atividade 2
+
+Informe pelo menos 5 tipagens utilizadas no Mysql e diga a sua equivalência em Java (ex: varchar = String)
+
+Int = inteiro 
+
+BigInt = inteiro para mais valores 
+
+char = caracter
+
+varchar = String
+
+float = valor decimal com apenas um valor depois da vírgula
