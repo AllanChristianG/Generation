@@ -23,9 +23,10 @@ select*from tb_cargo;
 SELECT * FROM db_RH.tb_cargo;
 SELECT * FROM db_RH.tb_funcionario;
 
-insert into tb_funcionario (nomeFuncionario, idade, telefone, salario, codigoCargo) values ("Ana Carolina", 30, "01909890789", 7500, 1);
+
 insert into tb_funcionario (nomeFuncionario, idade, telefone, salario, codigoCargo) values ("Camila Cleane", 27, "01901923874", 3500, 3);
 insert into tb_funcionario (nomeFuncionario, idade, telefone, salario, codigoCargo) values ("Lucas Gato", 19, "01919203452", 6500,  2);
+insert into tb_funcionario (nomeFuncionario, idade, telefone, salario, codigoCargo) values ("Ana Carolina", 30, "01909890789", 7500, 1);
 insert into tb_funcionario (nomeFuncionario, idade, telefone, salario, codigoCargo) values ("Mateus", 29, "01976859430", 7500,  1);
 insert into tb_funcionario (nomeFuncionario, idade, telefone, salario, codigoCargo) values ("Carlos Roberto", 33, "01901923874", 3500, 4);
 insert into tb_funcionario (nomeFuncionario, idade, telefone, salario, codigoCargo) values ("Roberto Carlos", 25, "01901923874", 3500, 3);
