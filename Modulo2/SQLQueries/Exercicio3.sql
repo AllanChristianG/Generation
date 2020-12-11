@@ -1,3 +1,7 @@
+show databases;
+
+
+
 create database db_RH; 
 
 use db_RH;

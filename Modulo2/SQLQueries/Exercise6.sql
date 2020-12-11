@@ -32,5 +32,3 @@ select * from tb_animals;
 UPDATE tb_animals SET weight = 15 where id = 1;
 
 
-    
-
